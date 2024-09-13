@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Herbal Garden</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/loaders/GLTFLoader.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Virtual Herbal Garden</h1>
+        <nav>
+            <a href="#plants">Explore Plants</a>
+            <a href="#search">Search & Filter</a>
+            <a href="#tours">Virtual Tours</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Welcome to the Virtual Herbal Garden</h2>
+            <p>The AYUSH sector relies heavily on medicinal plants and herbs, which form the backbone of traditional healing practices. Our Virtual Herbal Garden allows you to explore these plants from the comfort of your home.</p>
+        </section>
+
+        <section id="plants">
+            <h2>Interactive 3D Models</h2>
+            <div class="model-container">
+                <!-- Tulsi -->
+                <model-viewer src="tulsi.glb" alt="Tulsi" auto-rotate camera-controls></model-viewer>
+                <div class="plant-info">
+                    <h3>Tulsi (Ocimum sanctum)</h3>
+                    <p><strong>Common Names:</strong> Holy Basil, Sacred Basil</p>
+                    <p><strong>Habitat:</strong> Native to India, commonly found in gardens.</p>
+                    <p><strong>Medicinal Uses:</strong> Known for its anti-inflammatory, anti-viral, and antioxidant properties.</p>
+                    <p><strong>Cultivation:</strong> Prefers warm climates and well-drained soil. Grows well in pots or garden beds.</p>
+                    <img src="Tulsi.jpg" alt="Tulsi Plant">
+                    <br>
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4296439/" class="learn-more">Learn More</a>
+                </div>
+            </div>
+
+            <div class="model-container">
+                <!-- Ashwagandha -->
+                <model-viewer src="models/ashwagandha.glb" alt="Ashwagandha" auto-rotate camera-controls></model-viewer>
+                <div class="plant-info">
+                    <h3>Ashwagandha (Withania somnifera)</h3>
+                    <p><strong>Common Names:</strong> Indian Ginseng, Winter Cherry</p>
+                    <p><strong>Habitat:</strong> Native to India, grows well in arid regions.</p>
+                    <p><strong>Medicinal Uses:</strong> Adaptogen, helps reduce stress and anxiety, boosts immunity.</p>
+                    <p><strong>Cultivation:</strong> Prefers dry, well-drained soil and full sunlight.</p>
+                    <img src="images/ashwagandha.jpg" alt="Ashwagandha Plant">
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3573577/" class="learn-more">Learn More</a>
+                </div>
+            </div>
+
+            <div class="model-container">
+                <!-- Turmeric -->
+                <model-viewer src="models/turmeric.glb" alt="Turmeric" auto-rotate camera-controls></model-viewer>
+                <div class="plant-info">
+                    <h3>Turmeric (Curcuma longa)</h3>
+                    <p><strong>Common Names:</strong> Haldi, Indian Saffron</p>
+                    <p><strong>Habitat:</strong> Native to Southeast Asia, requires a warm, humid climate.</p>
+                    <p><strong>Medicinal Uses:</strong> Anti-inflammatory, antioxidant, used in digestive health.</p>
+                    <p><strong>Cultivation:</strong> Grows in rich, well-drained soil with ample rainfall.</p>
+                    <img src="images/turmeric.jpg" alt="Turmeric Plant">
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5664031/" class="learn-more">Learn More</a>
+                </div>
+            </div>
+
+            <div class="model-container">
+                <!-- Cinnamon -->
+                <model-viewer src="models/cinnamon.glb" alt="Cinnamon" auto-rotate camera-controls></model-viewer>
+                <div class="plant-info">
+                    <h3>Cinnamon (Cinnamomum verum)</h3>
+                    <p><strong>Common Names:</strong> Ceylon Cinnamon, True Cinnamon</p>
+                    <p><strong>Habitat:</strong> Native to Sri Lanka, thrives in tropical climates.</p>
+                    <p><strong>Medicinal Uses:</strong> Helps regulate blood sugar levels, has anti-inflammatory properties.</p>
+                    <p><strong>Cultivation:</strong> Prefers warm, humid environments with well-drained soil.</p>
+                    <img src="images/cinnamon.jpg" alt="Cinnamon Plant">
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4003790/" class="learn-more">Learn More</a>
+                </div>
+            </div>
+
+            <div class="model-container">
+                <!-- Cardamom -->
+                <model-viewer src="models/cardamom.glb" alt="Cardamom" auto-rotate camera-controls></model-viewer>
+                <div class="plant-info">
+                    <h3>Cardamom (Elettaria cardamomum)</h3>
+                    <p><strong>Common Names:</strong> True Cardamom</p>
+                    <p><strong>Habitat:</strong> Native to India, grows in tropical and subtropical climates.</p>
+                    <p><strong>Medicinal Uses:</strong> Supports digestive health, has antimicrobial properties.</p>
+                    <p><strong>Cultivation:</strong> Requires a moist, tropical climate and well-drained soil.</p>
+                    <img src="images/cardamom.jpg" alt="Cardamom Plant">
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5553793/" class="learn-more">Learn More</a>
+                </div>
+            </div>
+
+            <div class="model-container">
+                <!-- Clove -->
+                <model-viewer src="models/clove.glb" alt="Clove" auto-rotate camera-controls></model-viewer>
+                <div class="plant-info">
+                    <h3>Clove (Syzygium aromaticum)</h3>
+                    <p><strong>Common Names:</strong> Clove Buds</p>
+                    <p><strong>Habitat:</strong> Native to Indonesia, thrives in tropical climates.</p>
+                    <p><strong>Medicinal Uses:</strong> Used for pain relief, has antibacterial and antioxidant properties.</p>
+                    <p><strong>Cultivation:</strong> Prefers warm, humid conditions with rich, well-drained soil.</p>
+                    <img src="images/clove.jpg" alt="Clove Plant">
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3074903/" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="search">
+            <h2>Search & Filter Plants</h2>
+            <input type="text" id="search-input" placeholder="Search for plants...">
+            <button onclick="searchPlants()">Search</button>
+            <div id="search-results"></div>
+        </section>
+
+        <section id="tours">
+            <h2>Virtual Tours</h2>
+            <p>Explore specific themes through guided virtual tours:</p>
+            <ul>
+                <li><a href="tour-digestive-health.html">Plants for Digestive Health</a></li>
+                <li><a href="tour-immunity.html">Plants for Immunity</a></li>
+                <li><a href="tour-skin-care.html">Plants for Skin Care</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Virtual Herbal Garden. All rights reserved.</p>
+        <p>Made by <a href="#">Team Dave Discoverers</a> fro SIH 2024</p>
+    </footer>
+
+    <script>
+        // Example search functionality
+        function searchPlants() {
+            const input = document.getElementById('search-input').value.toLowerCase();
+            const resultsContainer = document.getElementById('search-results');
+            resultsContainer.innerHTML = ''; // Clear previous results
+            
+            // Example search logic (replace with actual plant data)
+            const plants = [
+                { name: 'Tulsi', description: 'Holy Basil, Sacred Basil' },
+                { name: 'Ashwagandha', description: 'Withania somnifera' },
+                { name: 'Turmeric', description: 'Curcuma longa' },
+                { name: 'Cinnamon', description: 'Cinnamomum verum' },
+                { name: 'Cardamom', description: 'Elettaria cardamomum' },
+                { name: 'Clove', description: 'Syzygium aromaticum' }
+                // Add more plants
+            ];
+
+            const results = plants.filter(plant => plant.name.toLowerCase().includes(input));
+            results.forEach(plant => {
+                const resultItem = document.createElement('div');
+                resultItem.innerHTML = `<h4>${plant.name}</h4><p>${plant.description}</p>`;
+                resultsContainer.appendChild(resultItem);
+            });
+
+            if (results.length === 0) {
+                resultsContainer.innerHTML = '<p>No plants found.</p>';
+            }
+        }
+    </script>
+</body>
+</html>
