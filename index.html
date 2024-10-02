@@ -20,18 +20,12 @@
 
     <main>
         <section id="intro">
-            <h2 style="color: #2c3e50; text-shadow: 2px 2px 5px #a8e063; text-align: center; font-size: 2.5em; font-weight: bold; transform: perspective(500px) rotateX(10deg);">
-                Welcome to the Virtual Herbal Garden
-            </h2>
-            <p style="color: #2c3e50; text-shadow: 1px 1px 3px rgba(0, 128, 0, 0.5); font-size: 1.3em; font-weight: 600; margin: 10px 0; text-align: center;">
-                The AYUSH sector relies heavily on medicinal plants and herbs, which form the backbone of traditional healing practices. Our Virtual Herbal Garden allows you to explore these plants from the comfort of your home.
-            </p>
-                    </section>
-        
+            <h2>Welcome to the Virtual Herbal Garden</h2>
+            <p>The AYUSH sector relies heavily on medicinal plants and herbs, which form the backbone of traditional healing practices. Our Virtual Herbal Garden allows you to explore these plants from the comfort of your home.</p>
+        </section>
+
         <section id="plants">
-            <h2 style="color: #2c3e50; text-shadow: 2px 2px 5px #a8e063; text-align: center; font-size: 2.5em; font-weight: bold; transform: perspective(500px) rotateX(10deg);">
-                Interactive 3D Models
-            </h2>
+            <h2>Interactive 3D Models</h2>
             <div id="tulsi" class="model-container">
                 <!-- Tulsi -->
                 <model-viewer src="models/tulsi.glb" alt="Tulsi" auto-rotate camera-controls></model-viewer>
@@ -49,21 +43,21 @@
 
             <div id="ashwagandha" class="model-container">
                 <!-- Ashwagandha -->
-                <model-viewer src="models/ashwagandha.glb" alt="Ashwagandha" auto-rotate camera-controls></model-viewer>
+                <model-viewer src="models/Ahwagandha.glb" alt="Ashwagandha" auto-rotate camera-controls></model-viewer>
                 <div class="plant-info">
                     <h3>Ashwagandha (Withania somnifera)</h3>
                     <p><strong>Common Names:</strong> Indian Ginseng, Winter Cherry</p>
                     <p><strong>Habitat:</strong> Native to India, grows well in arid regions.</p>
                     <p><strong>Medicinal Uses:</strong> Adaptogen, helps reduce stress and anxiety, boosts immunity.</p>
                     <p><strong>Cultivation:</strong> Prefers dry, well-drained soil and full sunlight.</p>
-                    <img src="images/ashwagandha.jpg" alt="Ashwagandha Plant">
+                    <img src="images/Ashwagandha.jpeg" alt="Ashwagandha Plant">
                     <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3573577/" class="learn-more">Learn More</a>
                 </div>
             </div>
 
             <div id="turmeric" class="model-container">
                 <!-- Turmeric -->
-                <model-viewer src="models/turmeric.glb" alt="Turmeric" auto-rotate camera-controls></model-viewer>
+                <model-viewer src="models/Turmeric.glb" alt="Turmeric" auto-rotate camera-controls></model-viewer>
                 <div class="plant-info">
                     <h3>Turmeric (Curcuma longa)</h3>
                     <p><strong>Common Names:</strong> Haldi, Indian Saffron</p>
@@ -74,43 +68,106 @@
                     <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5664031/" class="learn-more">Learn More</a>
                 </div>
             </div>
+
+            <div id="cinnamon" class="model-container">
+                <!-- Cinnamon -->
+                <model-viewer src="models/Cinnamon.glb" alt="Cinnamon" auto-rotate camera-controls></model-viewer>
+                <div class="plant-info">
+                    <h3>Cinnamon (Cinnamomum verum)</h3>
+                    <p><strong>Common Names:</strong> Ceylon Cinnamon, True Cinnamon</p>
+                    <p><strong>Habitat:</strong> Native to Sri Lanka, thrives in tropical climates.</p>
+                    <p><strong>Medicinal Uses:</strong> Helps regulate blood sugar levels, has anti-inflammatory properties.</p>
+                    <p><strong>Cultivation:</strong> Prefers warm, humid environments with well-drained soil.</p>
+                    <img src="images/cinnamon.jpeg" alt="Cinnamon Plant">
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4003790/" class="learn-more">Learn More</a>
+                </div>
+            </div>
+
+            <div id="cardamom" class="model-container">
+                <!-- Cardamom -->
+                <model-viewer src="models/Cardamom.glb" alt="Cardamom" auto-rotate camera-controls></model-viewer>
+                <div class="plant-info">
+                    <h3>Cardamom (Elettaria cardamomum)</h3>
+                    <p><strong>Common Names:</strong> True Cardamom</p>
+                    <p><strong>Habitat:</strong> Native to India, grows in tropical and subtropical climates.</p>
+                    <p><strong>Medicinal Uses:</strong> Supports digestive health, has antimicrobial properties.</p>
+                    <p><strong>Cultivation:</strong> Requires a moist, tropical climate and well-drained soil.</p>
+                    <img src="images/Cardamom.jpg" alt="Cardamom Plant">
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5553793/" class="learn-more">Learn More</a>
+                </div>
+            </div>
+
+            <div id="clove" class="model-container">
+                <!-- Clove -->
+                <model-viewer src="models/clove.glb" alt="Clove" auto-rotate camera-controls></model-viewer>
+                <div class="plant-info">
+                    <h3>Clove (Syzygium aromaticum)</h3>
+                    <p><strong>Common Names:</strong> Clove Buds</p>
+                    <p><strong>Habitat:</strong> Native to Indonesia, thrives in tropical climates.</p>
+                    <p><strong>Medicinal Uses:</strong> Used for pain relief, has antibacterial and antioxidant properties.</p>
+                    <p><strong>Cultivation:</strong> Prefers warm, humid conditions with rich, well-drained soil.</p>
+                    <img src="images/clove.jpg" alt="Clove Plant">
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3074903/" class="learn-more">Learn More</a>
+                </div>
+            </div>
         </section>
 
         <section id="search">
-            <h2 style="color: #2c3e50; text-shadow: 2px 2px 5px #a8e063; text-align: center; font-size: 2.5em; font-weight: bold; transform: perspective(500px) rotateX(10deg);">
-                Search & Filter
-            </h2>
-            <input type="text" id="search-bar" placeholder="Search for a plant...">
+            <h2>Search & Filter Plants</h2>
+            <input type="text" id="search-input" placeholder="Search for plants...">
             <button onclick="searchPlants()">Search</button>
             <div id="search-results"></div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Virtual Herbal Garden. All rights reserved. <br>Made by: Team Dave Developers for SIH 2024</p>
+        <p>&copy; 2024 Virtual Herbal Garden. All rights reserved.</p>
+        <p>Made by <a >Team Dev Discoverers</a></p>
     </footer>
 
     <script>
+        // Example search functionality
         function searchPlants() {
-            const searchTerm = document.getElementById('search-bar').value.toLowerCase();
-            const results = document.getElementById('search-results');
-            results.innerHTML = '';
-            const plantInfo = [
-                { name: 'Tulsi', info: 'Tulsi, also known as Holy Basil, is revered for its medicinal properties...' },
-                { name: 'Ashwagandha', info: 'Ashwagandha, often referred to as Indian Ginseng, is known for its adaptogenic benefits...' },
-                { name: 'Turmeric', info: 'Turmeric, also called Indian Saffron, is widely used for its anti-inflammatory properties...' }
+            const input = document.getElementById('search-input').value.toLowerCase();
+            const resultsContainer = document.getElementById('search-results');
+            resultsContainer.innerHTML = ''; // Clear previous results
+            
+            // Example search logic (replace with actual plant data)
+            const plants = [
+                { id: 'tulsi', name: 'Tulsi' },
+                { id: 'ashwagandha', name: 'Ashwagandha' },
+                { id: 'turmeric', name: 'Turmeric' },
+                { id: 'cinnamon', name: 'Cinnamon' },
+                { id: 'cardamom', name: 'Cardamom' },
+                { id: 'clove', name: 'Clove' }
+                // Add more plants
             ];
 
-            const filteredPlants = plantInfo.filter(plant => plant.name.toLowerCase().includes(searchTerm));
-
-            if (filteredPlants.length > 0) {
-                filteredPlants.forEach(plant => {
-                    const plantDiv = document.createElement('div');
-                    plantDiv.innerHTML = `<h3>${plant.name}</h3><p>${plant.info}</p>`;
-                    results.appendChild(plantDiv);
+            const results = plants.filter(plant => plant.name.toLowerCase().includes(input));
+            if (results.length > 0) {
+                results.forEach(result => {
+                    const plantSection = document.getElementById(result.id);
+                    if (plantSection) {
+                        resultsContainer.appendChild(createResultElement(result));
+                    }
                 });
+                resultsContainer.scrollIntoView({ behavior: 'smooth' });
             } else {
-                results.innerHTML = '<p>No plants found.</p>';
+                resultsContainer.innerHTML = '<p>No plants found.</p>';
+            }
+        }
+
+        function createResultElement(result) {
+            const resultElement = document.createElement('div');
+            resultElement.className = 'result';
+            resultElement.innerHTML = `<p>Found: <a href="#${result.id}" onclick="scrollToPlant('${result.id}')">${result.name}</a></p>`;
+            return resultElement;
+        }
+
+        function scrollToPlant(id) {
+            const element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
             }
         }
     </script>
